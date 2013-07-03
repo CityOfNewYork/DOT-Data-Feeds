@@ -38,12 +38,19 @@ myobj.getTrafficInfo(myobj.t_WeeklyTraf)
 
 
 
-<b>For DOT Truck info and Bike info, you can select whether to have your result returned as a ZIP or a KML: </b>
+<b>For DOT Truck info and Bike info, you can select whether to have your result returned as a ZIP or a KML: </b><br />
 <code>
-myobj.getTruckInfo(myobj.r_AllRoutes , myobj.kml)</code><br />
+truckRouteInfo = myobj.getTruckInfo(myobj.r_AllRoutes , myobj.kml)</code><br />
 <b>OR</b><br />
 <code>
-myobj.getTruckInfo(myobj.r_AllRoutes , myobj.zip)
+truckRouteInfo = myobj.getTruckInfo(myobj.r_AllRoutes , myobj.zip)
+</code><br />
+
+
+
+<b>Print output in text format</b><br />
+<code>
+print truckRouteInfo.text
 </code>
 
 <b>For further documentation and examples, see the integrated help Doc in python:</b><br />

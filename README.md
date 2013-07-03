@@ -44,7 +44,7 @@ myobj.getTruckInfo(myobj.r_AllRoutes , myobj.kml)</code><br />
 myobj.getTruckInfo(myobj.r_AllRoutes , myobj.zip)
 </code>
 
-<b>For further documentation and examples, see the integrated help DOC in python:</b><br />
+<b>For further documentation and examples, see the integrated help Doc in python:</b><br />
 <code>help(DOT) </code>
 
 

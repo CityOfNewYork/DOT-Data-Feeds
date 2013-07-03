@@ -3,6 +3,7 @@
 "The Department of Transportation (DOT) provides numerous data feeds including Traffic Advisories, Street Construction worksites, bicycle parking and cycling map, as well as information regarding the Staten Island Ferry, alternate side parking and parking regulations, Citywide Low Bridges, New York City Truck Routes, and Street Network Changes.  DOT also provides real time data from traffic cameras and traffic speed detectors.  Note that these data feeds may contain and/or utilize information which was originally compiled by the New York City Department of Transportation (DOT) for governmental purposes; the information may subsequently been modified by entity/entities other than DOT. DOT and the City of New York make no representation as to the accuracy or usefulness of the information provided by this application or the information's suitability for any purpose and disclaim any liability for omissions or errors that may be contained therein. The public is advised to observe posted signage for compliance with applicable laws and regulations.
 </p>
 
+<h1>Import The Library</h1>
 
 <b>To use the included Python Library, you must first import it:</b><br />
 <code>import DOT</code>
@@ -10,6 +11,7 @@
 If the library fails to import, make sure python is set to search the directory that the file is located in. Then restart python and try again.
 
 
+<h1>Creating the DOT Object</h1>
 
 <b>Creating a DOT object and setting the API Key/ID:</b><br />
 <code>myobj = DOT.DOT('API ID' , 'API Key') </code>
